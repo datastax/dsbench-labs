@@ -55,6 +55,8 @@ please [submit a feature request](https://github.com/datastax/dsbench-labs/issue
 
 ## Sponsors
 
+[![DataStax Logo](https://www.datastax.com/sites/default/files/content/graphics/logo/DS-logo-2019_1-25percent.png)](http://datastax.com/)
+
 DSBench development is sponsored by DataStax.
 
 DataStax helps companies compete in a rapidly changing world where expectations are high and new innovations happen daily. DataStax is an experienced partner in on-premises, hybrid, and multi-cloud deployments and offers a suite of distributed data management products and cloud services. We make it easy for enterprises to deliver killer apps that crush the competition.
