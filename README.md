@@ -21,12 +21,14 @@ Activity types are how DSBench gets its support for different protocols or clien
 
 ## Getting Started
 
-DSBench comes with its own internal documentation, some of which is also
-included on this site. The intent is to make documentation and UI features live together in an interactive way in a future release.
+1. Download dsbench from [DataStax Labs Downloads](https://downloads.datastax.com/#labs)
+2. Start dsbench in docserver mode: `dsbench docserver https://0.0.0.0:12345/`
+3. Browse to the system you are running it on and you will be presented with the user guide.
 
-- [Basic Examples](getting_started/basic_examples.md)
-- [Next Steps](getting_started/next_steps.md)
-- [Accessing the Guidebook](getting_started/accessing_guidebook.md)
+As a short preview of what you can do with DSBench, some
+[Basic Examples](getting_started/basic_examples.md) are shared here. [The Guidebook](getting_started/the_guidebook.md) provides the most essential place to get access to the docs.
+
+[Next Steps](getting_started/next_steps.md)
 
 ## Releases
 
