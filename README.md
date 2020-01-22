@@ -1,7 +1,3 @@
-# WORK IN PROGRESS
-
-This repo will remain private until the release of dsbench on the labs download site. At that time, it will be made public.
-
 # DSBench
 
 DSBench allows you to run realistic workloads against your CQL systems without having to build your own testing harness. It builds on a set of core testing concepts and machinery to give you a performance testing power suit. Specifically, it allows you to control and customize your client operations so that they are representative of a real workload that you would run with your application. If you don't want to control for this level of detail, you can use one of the built-in workloads with a single command.
@@ -10,8 +6,7 @@ This repository is where we manage issues, feature requests, and releases for DS
 
 ## Supported Systems
 
-In this initial release, DSBench supports CQL based systems and raw text.
-In dsbench terms, this means:
+In this initial release, DSBench supports CQL based systems and raw text. In dsbench terms, this means:
 
 - The CQL activity type
   - The initial release of the CQL activity type uses the DataStax driver version 1.9.0
@@ -28,7 +23,7 @@ Activity types are how DSBench gets its support for different protocols or clien
 As a short preview of what you can do with DSBench, some
 [Basic Examples](getting_started/basic_examples.md) are shared here. [The Guidebook](getting_started/the_guidebook.md) provides the most essential place to get access to the docs.
 
-[Next Steps](getting_started/next_steps.md)
+[Next Steps](getting_started/what_next.md)
 
 ## Releases
 
@@ -67,6 +62,4 @@ please [submit a feature request](https://github.com/datastax/dsbench-labs/issue
 
 DSBench development is sponsored by DataStax.
 
-DataStax helps companies compete in a rapidly changing world where expectations are high and new innovations happen daily. DataStax is an experienced partner in on-premises, hybrid, and multi-cloud deployments and offers a suite of distributed data management products and cloud services. We make it easy for enterprises to deliver killer apps that crush the competition.
-
-More than 400 of the world’s leading enterprises including Capital One, Cisco, Comcast, Delta Airlines, eBay, Macy’s, McDonald’s, Safeway, Sony, and Walmart use DataStax to build modern applications that can be deployed across any cloud. For more information, visit [www.DataStax.com](http://www.datastax.com/) and follow us on [@DataStax](https://twitter.com/Datastax)
+DataStax offers a suite of distributed data management products and cloud services powered by Apache Cassandra. We simplify achieving zero downtime for enterprise apps that are active everywhere–DataStax delivers the ultimate hybrid and multi-cloud database. For more information, visit [www.DataStax.com](http://www.datastax.com/) and follow us on [@DataStax](https://twitter.com/Datastax)
