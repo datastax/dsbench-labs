@@ -10,7 +10,7 @@ We're working hard on bringing the next version of DSBench to you. The focal poi
 
 ## For Everyone
 
-If you are interested in helping out, one of the best ways to do so is to share in our [DataStax DSBench Community](https://community.datastax.com/dsbench/index.html).
+If you are interested in helping out, one of the best ways to do so is to share in our [DataStax DSBench Community](https://community.datastax.com/spaces/51/index.html).
 
 ## For Workload Builders
 

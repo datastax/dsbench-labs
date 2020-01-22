@@ -17,7 +17,7 @@ This is by far the most secure mode. If you want to access it in this mode from 
 If you want to access dsbench documentation directly from a different system, like your desktop, then you can run it with one of these forms:
 
     # with a specific listener address (a local interface)
-    dsbench docserver http://1.2.3.4:12345/
+    dsbench docserver http://192.168.128.123:12345/
 
     # or bind to all local addresses
     dsbench docserver http://0.0.0.0:12345/
