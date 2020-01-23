@@ -16,7 +16,7 @@ In this initial release, DSBench supports CQL based systems and console output. 
 
 Activity types are how DSBench gets its support for different protocols or client drivers. The initial release of DSBench includes only two, but additional types will be supported in future releases.
 
-[Basic Examples](basic_examples.md) give a preview of some of the things you can do with DSBench and how it works. The real docs are included in the tool itself.
+[Basic Examples](https://github.com/datastax/dsbench-labs/wiki/Basic-Examples) give a preview of some of the things you can do with DSBench and how it works. The real docs are included in the tool itself.
 
 ## Getting Started
 
@@ -24,9 +24,9 @@ Activity types are how DSBench gets its support for different protocols or clien
 2. Start dsbench in docserver mode: `dsbench docserver http://0.0.0.0:12345/`
 3. Browse to the system you are running it on and you will be presented with the Guidebook.
 
-[The Guidebook](the_guidebook.md) provides the most essential place to get access to the docs.
+[The Guidebook](https://github.com/datastax/dsbench-labs/wiki/The-Guidebook) provides the most essential place to get access to the docs.
 
-[Release Plans](release_plans.md) are how we plan to prioritize and scope releases going forward.
+[Release Milestones](https://github.com/datastax/dsbench-labs/wiki/Release-Milestones.md) are how we plan to prioritize and scope releases going forward.
 
 ## Support
 
