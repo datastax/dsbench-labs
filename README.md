@@ -2,7 +2,7 @@
 
 DSBench allows you to run realistic workloads against your CQL systems without having to build your own testing harness. It builds on a set of core testing concepts and machinery to give you a performance testing power suit. Specifically, it allows you to control and customize your client operations so that they are representative of a real workload that you would run with your application. If you don't want to control for this level of detail, you can use one of the built-in workloads with a single command.
 
-This repository is where we manage issues, feature requests, and releases for DSBench, a testing tool that offers simple and powerful benchmarking for Databases. DSBench is a tailored version of some of the tools used by DataStax for internal testing as well as with customers for performance testing and verification.
+This repository is where we manage issues, feature requests, and releases for DSBench.
 
 ## Supported Systems
 
