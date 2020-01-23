@@ -2,15 +2,13 @@
 
 There are many ways to use dsbench, depending on your level of need.
 
-As we navigate sharing this tool with our broader user community, we'll need to lean on each other to identify where more polish is needed and what features are most in demand.
-
-## For DSBench developers
-
-We're working hard on bringing the next version of DSBench to you. The focal point on the next release will be clearly identified as a milestone at the [DSBench Milestones](https://github.com/datastax/dsbench-labs/milestones) page.
+As we navigate sharing this toolkit with our broader user community, we'll need to lean on each other to identify where more polish is needed and what features are most in demand.
 
 ## For Everyone
 
-If you are interested in helping out, one of the best ways to do so is to share in our [DataStax DSBench Community](https://community.datastax.com/spaces/51/index.html).
+We're working hard on bringing the next version of DSBench to you. The focal point on the next release will be clearly identified as a milestone at the [DSBench Milestones](https://github.com/datastax/dsbench-labs/milestones) page.
+
+If you are interested in helping out, one of the best ways to do so is to share in our [DataStax DSBench Community](https://community.datastax.com/spaces/51/index.html) and on our [DSBench Issues](https://github.com/datastax/dsbench-labs/issues) page.
 
 ## For Workload Builders
 
