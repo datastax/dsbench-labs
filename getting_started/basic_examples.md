@@ -1,6 +1,6 @@
 # Basic Examples
 
-The command-line examples below are meant to give you an idea of what you can do with DSBench. It is not meant to suffice as documentation. DSBench comes with its own documentation service. To see the official docs, [Run the Guidebook](the_buidebook.md).
+The command-line examples below are meant to give you an idea of what you can do with DSBench. It is not meant to suffice as documentation. DSBench comes with its own documentation service. To see the official docs, [Run the Guidebook](the_guidebook.md).
 
 ## Check the DSBench version
 
