@@ -14,4 +14,14 @@ If you are interested in helping out, one of the best ways to do so is to share 
 
 If you want to know how to build a workload from scratch to emulate the access patterns of an application, the next release of dsbench will be for you! We're just getting started, so hang in there while we get more docs in place.
 
+## The Future
 
+To get an idea for what we are planning to do with DSBench going forward, here are some of our big ideas:
+
+1. UIs. The Guidebook is really just an app. We'll bring more UIs to support workload construction, bindings testing, and so on.
+2. Mac and Windows support.
+3. Additional Docs
+4. Additional Activity types, such as TCP, other protocols
+5. Improved Metrics
+6. Improved Logging
+7. Scripting Enhancements

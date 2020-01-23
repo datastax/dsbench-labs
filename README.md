@@ -4,46 +4,35 @@ DSBench allows you to run realistic workloads against your CQL systems without h
 
 This repository is where we manage issues, feature requests, and releases for DSBench.
 
+DSBench is released as a Linux compatible binary. Future releases may include support for Mac or Windows.
+
 ## Supported Systems
 
-In this initial release, DSBench supports CQL based systems and raw text. In dsbench terms, this means:
+In this initial release, DSBench supports CQL based systems and console output. In dsbench terms, this means:
 
 - The CQL activity type
   - The initial release of the CQL activity type uses the DataStax driver version 1.9.0
-- The stdout activity type.
+- The stdout activity type. (this is a way to see operations in diagnostic mode)
 
 Activity types are how DSBench gets its support for different protocols or client drivers. The initial release of DSBench includes only two, but additional types will be supported in future releases.
+
+[Basic Examples](basic_examples.md) give a preview of some of the things you can do with DSBench and how it works. The real docs are included in the tool itself.
 
 ## Getting Started
 
 1. Download dsbench from [DataStax Labs Downloads](https://downloads.datastax.com/#labs)
 2. Start dsbench in docserver mode: `dsbench docserver http://0.0.0.0:12345/`
-3. Browse to the system you are running it on and you will be presented with the guidebook.
+3. Browse to the system you are running it on and you will be presented with the Guidebook.
 
-As a short preview of what you can do with DSBench, some
-[Basic Examples](getting_started/basic_examples.md) are shared here. [The Guidebook](getting_started/the_guidebook.md) provides the most essential place to get access to the docs.
+[The Guidebook](the_guidebook.md) provides the most essential place to get access to the docs.
 
-[Next Steps](getting_started/what_next.md)
-
-## Releases
-
-Releases of DSBench will be linked from [DataStax Labs Downloads](https://downloads.datastax.com/#labs) to releases in this repository.
-
-This is a description of our strategy for balancing the scope of each release: Each one will be themed around a major improvement for user experience. When needed, a release will also include an internal improvement for technical debt. Bug-fixes or small enhancements will also be included, based on user feedback and bug reports, as well as improvements in the user guide for casual and advanced users.
-
-These are indicated by labels in the issue tracker:
-- `UX` for use experience - up to 1 per milestone - basis for the milestone theme
-- `TECH` for tech debt - up to 1 per milestone
-- `documentation` for docs focus - part of the theme
-- `bug` tickets - as needed
-
-The theme of each release will be described clearly in the milestone. If there is a ramp in bugs that need fixed, we may opt to do a quality-only release to fix things on a case-by-case basis befor returning to themed releases.
-
-More details on the plans for each release can be seen on the [DSBench Milestones](https://github.com/datastax/dsbench-labs/milestones) plan. These milestones are subject to change, but we will do our best to stick to the ones which have been decided.
+[Release Plans](release_plans.md) are how we plan to prioritize and scope releases going forward.
 
 ## Support
 
 ### Community Support
+
+DSBench is released as a DataStax Labs tech preview.
 
 It is supported by a community of active users at [DataStax DSBench Community](https://community.datastax.com/dsbench/index.html).
 
