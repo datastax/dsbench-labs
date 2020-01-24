@@ -26,7 +26,7 @@ Activity types are how DSBench gets its support for different protocols or clien
 
 [The Guidebook](https://github.com/datastax/dsbench-labs/wiki/The-Guidebook) provides the most essential place to get access to the docs.
 
-[Release Milestones](https://github.com/datastax/dsbench-labs/wiki/Release-Milestones) are how we plan to prioritize and scope releases going forward.
+[Release Plans](https://github.com/datastax/dsbench-labs/wiki/Release-Plans) are how we plan to prioritize and scope releases going forward.
 
 ## Support
 
