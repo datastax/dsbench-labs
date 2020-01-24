@@ -34,7 +34,7 @@ Activity types are how DSBench gets its support for different protocols or clien
 
 DSBench is released as a DataStax Labs tech preview.
 
-It is supported by a community of active users at [DataStax DSBench Community](https://community.datastax.com/dsbench/index.html).
+It is supported by a community of active users at [DataStax DSBench Community](https://community.datastax.com/spaces/51/index.html).
 
 ### Bug Fixes
 
