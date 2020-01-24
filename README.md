@@ -38,7 +38,7 @@ It is supported by a community of active users at [DataStax DSBench Community](h
 
 ### Bug Fixes
 
-If you think you have found a bug, you may [file a bug report](https://github.com/datastax/dsbench-labs/issues/new?labels=bug). DSBench is actively used within DataStax, and verified bugs will get attention as resources permit. For the best results, please follow [DSBench Bug Report Guidelines](filing_a_bug_report.md)
+If you think you have found a bug, you may [file a bug report](https://github.com/datastax/dsbench-labs/issues/new?labels=bug). DSBench is actively used within DataStax, and verified bugs will get attention as resources permit.
 
 ### Feature Requests
 
