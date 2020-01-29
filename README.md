@@ -32,6 +32,8 @@ On other systems:
 3. Start dsbench in docserver mode: `java -jar dsbench.jar docserver http://0.0.0.0:12345/`
 4. Browse to the system you are running it on and you will be presented with the Guidebook.
 
+[Running DSBench on docker](https://hub.docker.com/repository/docker/datastaxlabs/dsbench)
+
 [The Guidebook](https://github.com/datastax/dsbench-labs/wiki/The-Guidebook) provides the most essential place to get access to the docs.
 
 [Release Plans](https://github.com/datastax/dsbench-labs/wiki/Release-Plans) are how we plan to prioritize and scope releases going forward.
