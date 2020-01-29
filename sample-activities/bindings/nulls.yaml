@@ -1,0 +1,38 @@
+bindings:
+
+# yield null if the input value is null or if it is an empty string
+#  the ToString() has to be added to satisfy the requirement of reading a long input
+ nullif_empty_or_null: ToString(); NullIfNullOrEmpty()
+## yield a null if the input value is not null and is also an empty string
+# nullif_empty: NullIfEmpty()
+
+# yield null if the double input value is within the specified values, inclusive
+ nullif_within: ToDouble(); NullIfWithin(0.0d,10.0d)
+# yield null if the input value is close enough to the specified value as
+# indicated by the simga (second value). This is to allow for easy templating
+# of the above case.
+ nullif_close: ToDouble(); NullIfCloseTo(50.0d, 10.0d)
+
+# yield null if the input value is less than the specified value
+ nullif_lt: NullIfLt(50d)
+# yield null if the input value is less than or equal to the specified value
+ nullif_le: NullIfLe(50d)
+
+# yield null if the input value is equal to the specified value
+ nullif_eq: NullIfEq(50d)
+
+# yield null if the input value is equal to the specified value
+ nullif_ge: NullIfGe(50d)
+# yield null if the input value is greater than or equal the specified value
+ nullif_gt: NullIfGt(50d)
+
+# Pass the input value on to the output, at the specified ratio.
+# use the varname as a seed for the sample value.
+# This varname MUST be saved with Save('seedname') earlier in the function.
+ nullif_var_ratio: Save('cycle'); NullOrPass(0.50, 'cycle')
+
+# Load the named value from the thread local map and pass it on at some ratio.
+# The input value is used as the seed value.
+# The return value MUST be saved with Save('outvar') earlier in the function.
+ nullif_input_ratio: Save('returnval'); NullOrLoad(0.50d, 'returnval');
+

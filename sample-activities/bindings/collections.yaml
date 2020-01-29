@@ -1,0 +1,43 @@
+bindings:
+# In the 2.11 releases, a new Map function is available
+
+  # Create a map of 2 to 4 entries where the key is a string between 0000 and 3999
+  # and the value is simply a pseudo-random long between 0L and 10L inclusive
+  map_string_long: >-
+    Map(
+    HashRange(2,4),
+    Combinations('0-3;0-9;0-9;0-9'),
+    ToLongFunction(HashRange(0L,10L))
+    );
+  # Create a map of 2 to 4 entries where the key is a millisecond time after 2018-02-01 05:00
+  # and the value is a string between 00 and 55
+  map_timestamp_text: >-
+    Map(
+    HashRange(2,4),
+    ToLongFunction(StartingEpochMillis('2018-02-01 05:00:00')),
+    ToLongFunction(Combinations('0-5;0-5'))
+    );
+  # Create a map of 2 to 4 entries where the key is a millisecond time after 2018-02-01 05:00
+  # and the value is a pseudo random integer between 0 and 3 inclusive
+  map_timestamp_int: >-
+    Map(
+    HashRange(2,4),
+    ToLongFunction(StartingEpochMillis('2018-02-01 05:00:00')),
+    ToLongFunction(HashRange(0,3))
+    );
+  # Create a map of 2 to 4 entries where the key is a millisecond time after 2018-02-01 05:00
+  # and the value is a date version of the same
+  map_timestamp_date: >-
+    Map(
+    HashRange(2,4),
+    ToLongFunction(StartingEpochMillis('2018-02-01 05:00:00')),
+    ToLongFunction(ToDate())
+    );
+  # Create a map of 2 to 4 entries where the key is a Date object and the value is
+  # a pseudo-random integer between 0 and 3 inclusive
+  map_date_int: >-
+    Map(
+    HashRange(2,4),
+    ToLongFunction(ToDate()),
+    ToLongFunction(HashRange(0,3))
+    );
