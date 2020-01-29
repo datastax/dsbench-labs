@@ -20,7 +20,9 @@ Activity types are how DSBench gets its support for different protocols or clien
 
 ## Getting Started
 
-1. Download dsbench from [DataStax Labs Downloads](https://downloads.datastax.com/#labs)
+1. Download dsbench from [DSBench Releases](https://github.com/datastax/dsbench-labs/releases)
+   - If you are running on Linux, just download the dsbench binary.
+   - On other systems, you'll need the dsbench.jar and a local Java 12 runtime.
 2. Start dsbench in docserver mode: `dsbench docserver http://0.0.0.0:12345/`
 3. Browse to the system you are running it on and you will be presented with the Guidebook.
 
