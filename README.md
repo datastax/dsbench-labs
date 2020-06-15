@@ -1,3 +1,12 @@
+# DSBench is obsolete and no longer actively developed or maintained; leverage NSQLBench instead
+
+Refer to the following resources to find additional information about `NoSQLBench, An Open Source, Pluggable, NoSQL Benchmarking Suite`.
+
+* Introduction blog: https://www.datastax.com/blog/2020/03/nosqlbench
+* Github repo: https://github.com/nosqlbench/nosqlbench
+* NoSQLBench website: http://docs.nosqlbench.io/#/
+* [Comparing stress tools for Apache Cassandra&trade;](https://thelastpickle.com/blog/2020/04/06/comparing-stress-tools.html)
+
 # DSBench
 
 DSBench allows you to run realistic workloads against your CQL systems without having to build your own testing harness. It builds on a set of core testing concepts and machinery to give you a performance testing power suit. Specifically, it allows you to control and customize your client operations so that they are representative of a real workload that you would run with your application. If you don't want to control for this level of detail, you can use one of the built-in workloads with a single command.
