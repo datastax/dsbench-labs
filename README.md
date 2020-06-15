@@ -1,4 +1,4 @@
-# DSBench is obsolete and no longer actively developed or maintained; leverage NSQLBench instead
+# DSBench is obsolete and no longer actively developed or maintained; leverage NoSQLBench instead
 
 Refer to the following resources to find additional information about `NoSQLBench, An Open Source, Pluggable, NoSQL Benchmarking Suite`.
 
